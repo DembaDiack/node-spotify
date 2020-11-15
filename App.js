@@ -6,8 +6,8 @@ const path = require("path");
 let queries = [];
 let tracks = [];
 const spotifyApi = new SpotifyWebApi({
-    clientId: 'be1775db22fa46379449544b2c4aff9c',
-    clientSecret: '64315f8c2be44102ba162baf0eea6d35'
+    clientId: '',
+    clientSecret: ''
 });
 
 spotifyApi.clientCredentialsGrant().then(async result => {
